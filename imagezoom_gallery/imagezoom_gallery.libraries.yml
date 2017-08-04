@@ -1,0 +1,6 @@
+imagezoom_gallery.css:
+  version: VERSION
+  css:
+    base:
+      css/imagezoom_gallery.css: {}
+

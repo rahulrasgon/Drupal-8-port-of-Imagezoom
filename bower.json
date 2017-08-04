@@ -1,0 +1,22 @@
+{
+  "name": "imagezoom",
+  "authors": [
+    "rahulrasgon <rahul.rasgon@qed42.com>"
+  ],
+  "description": "Installs required and optional libraries",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ez-plus": "^1.2.1"
+  }
+}

@@ -1,0 +1,12 @@
+.imagezoom-thumbs {
+  display: flex;
+  padding: 0px;
+  list-style: none;
+}
+
+.imagezoom-thumbs a {
+  border:none;
+}
+.imagezoom-thumbs a:hover {
+  border-bottom-style: none;
+}

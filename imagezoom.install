@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Provides uninstall functions for the Image Zoom module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+
+function imagezoom_uninstall() {
+  // delete variables created by settings form
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_zoom_type')->save();
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_multiple_thumbs')->save();
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_hide_active_thumb')->save();
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_display_title')->save();
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_load_all')->save();
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_load_all_types')->save();
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_thumbs_jcarousel')->save();
+  \Drupal::config('imagezoom.settings')->clear('imagezoom_colorbox')->save();
+}

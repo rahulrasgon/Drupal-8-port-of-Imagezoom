@@ -1,0 +1,10 @@
+imagezoom.javascript:
+  version: VERSION
+  js:
+    /libraries/ez-plus/src/jquery.ez-plus.js: {}
+    js/imagezoom.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/jquery.once
+    - core/drupal

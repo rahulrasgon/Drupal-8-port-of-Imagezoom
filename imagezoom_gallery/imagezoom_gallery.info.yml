@@ -1,0 +1,8 @@
+type: module
+name: Image Zoom Gallery
+description: 'Provides a gallery formatter for the Image Zoom module.'
+package: Image
+core: 8.x
+dependencies:
+  - image
+  - imagezoom
